@@ -18,7 +18,10 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "rootDir": "."
+    "rootDir": ".",
+    "path": {
+      "ngx-currency": ["./index.ts"]
+    }
   },
   "include": [
     "src/**/*",
